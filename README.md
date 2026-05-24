@@ -60,6 +60,10 @@ To extend interactivity, YOLOv8 object recognition dynamically changes the brush
 8. YOLOv8 periodically runs object detection to modify brush color dynamically.
 9. Contour area is mapped to brush thickness for depth-aware drawing behavior.
 
+## Setup Notes
+
+Required asset: `instruction.png` must be located in the same directory as `fingerDrawing.py` for the instruction window to function properly.
+
 ## Future Improvements
 
 * Gesture recognition for brush/tool switching
